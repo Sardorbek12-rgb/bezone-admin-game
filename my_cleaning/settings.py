@@ -466,16 +466,16 @@ SWAGGER_SETTINGS = {
 
 CORS_ALLOW_ALL_ORIGINS = True
 
-# CORS_ALLOWED_ORIGINS = [
-#     "https://django-admin-pro.onrender.com",
-# ]
+CORS_ALLOWED_ORIGINS = [
+    "https://bezone-admin-game.onrender.com",
+]
 CORS_ALLOW_CREDENTIALS = True
 
 CSRF_COOKIE_NAME = "csrftoken"
 CSRF_COOKIE_SAMESITE = "Lax"
 CSRF_COOKIE_SECURE = True
 
-CSRF_TRUSTED_ORIGINS = ["https://game-center-eta.vercel.app"]
+CSRF_TRUSTED_ORIGINS = ["https://game-center-eta.vercel.app", "https://bezone-admin-game.onrender.com"]
 
 CSRF_COOKIE_HTTPONLY = False
 
