@@ -17,7 +17,7 @@ psycopg2==2.9.10
 PyJWT==2.9.0
 pytz==2025.2
 PyYAML==6.0.2
-requests==1.21.10
+requests==2.31.0
 rest_framework_simplejwt==0.0.2
 sqlparse==0.5.3
 typing_extensions==4.14.0
