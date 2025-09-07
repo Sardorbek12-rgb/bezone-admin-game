@@ -1,0 +1,63 @@
+/* Общий фон админки */
+body[data-theme="dark"] {
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: #e2e8f0;
+}
+
+/* Хедер */
+.unfold-header {
+    background: #1e293b !important;
+    border-bottom: 1px solid #334155;
+}
+
+/* Логотип и заголовок */
+.unfold-header .logo {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #38bdf8 !important;
+}
+
+/* Сайдбар */
+.unfold-sidebar {
+    background: #0f172a !important;
+    border-right: 1px solid #334155;
+}
+.unfold-sidebar a {
+    color: #cbd5e1 !important;
+    transition: 0.2s;
+}
+.unfold-sidebar a:hover {
+    color: #38bdf8 !important;
+}
+
+/* Активный пункт */
+.unfold-sidebar .active > a {
+    background: #1e293b;
+    color: #38bdf8 !important;
+    border-radius: 8px;
+}
+
+/* Таблицы */
+.change-list table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.change-list table thead {
+    background: #1e293b;
+    color: #f1f5f9;
+}
+.change-list table tbody tr:hover {
+    background: #334155;
+}
+body[data-theme="dark"] {
+  background: linear-gradient(135deg, #071029, #0e253a);
+  color: #e6eef6;
+}
+.unfold-header { background:#0b2540 !important; border-bottom:1px solid #16314a; }
+.unfold-header .logo { color:#7dd3fc !important; font-weight:700; }
+.unfold-sidebar { background:#071029 !important; }
+.unfold-sidebar a { color:#cfe8f8 !important; transition: color .15s ease; }
+.unfold-sidebar a:hover { color:#7dd3fc !important; }
+.unfold-sidebar .active > a { background:#072a44; color:#7dd3fc !important; border-radius:8px; }
+.change-list table thead { background:#072a44; color:#f8fafc; }
+.change-list table tbody tr:hover { background:#0f3350; }

@@ -1,0 +1,17 @@
+{% extends "admin/base.html" %}
+
+{% block content %}
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+  {% for card in cards %}
+    <a href="{{ card.url }}" class="rounded-2xl shadow-md bg-gray-800 hover:bg-gray-700 p-6 block text-white transition">
+      <div class="flex items-center space-x-4">
+        <span class="material-icons text-4xl">{{ card.icon }}</span>
+        <div>
+          <p class="text-2xl font-bold">{{ card.count }}</p>
+          <p class="text-sm opacity-80">{{ card.title }}</p>
+        </div>
+      </div>
+    </a>
+  {% endfor %}
+</div>
+{% endblock %}
